@@ -20,27 +20,39 @@ This project demonstrates JWT-based authentication, route protection, and persis
 
 ## 📂 Project Structure
 
-src/
-├── api/
-│   └── http.js           # Axios client with interceptors
-├── assets/
-│   ├── Login.jpg
-│   ├── vue.svg
-│   └── Wishlist.png
-├── components/
-│   ├── AppNavbar.vue     # Navigation with auth state
-│   └── HelloWorld.vue
-├── pages/
-│   ├── HomePage.vue      # Public landing page
-│   ├── LoginPage.vue     # Login form
-│   └── DashboardPage.vue # Protected user dashboard
-├── router/
-│   └── index.js          # Route definitions and guards
-├── stores/
-│   └── auth.js           # Pinia store for authentication
-├── App.vue
-├── main.js
-└── style.css
+│── src/
+│ │
+│ ├── api/ # Axios client with interceptors
+│ │ └── http.js
+│ │
+│ ├── assets/ # Static assets (images, icons)
+│ │ ├── Login.jpg
+│ │ ├── vue.svg
+│ │ └── Wishlist.png
+│ │
+│ ├── components/ # Reusable Vue components
+│ │ ├── AppNavbar.vue
+│ │ └── HelloWorld.vue
+│ │
+│ ├── pages/ # Main application views
+│ │ ├── HomePage.vue # Public landing page
+│ │ ├── LoginPage.vue # Login form
+│ │ └── DashboardPage.vue # Protected user dashboard
+│ │
+│ ├── router/ # Application routes and guards
+│ │ └── index.js
+│ │
+│ ├── stores/ # Pinia store for authentication
+│ │ └── auth.js
+│ │
+│ ├── App.vue # Root Vue component
+│ ├── main.js # Application entry point
+│ └── style.css # Global styles
+│
+│── .env # Environment variables
+│── .env.example # Sample environment configuration
+│── package.json # Project dependencies and scripts
+│── vite.config.js # Vite configuration file
 
 ---
 🧪 Test Credentials
