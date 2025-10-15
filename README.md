@@ -46,8 +46,8 @@ src/
 🧪 Test Credentials
 
 Use the following credentials to log in:
-Username: kminchelle
-Password: 0lelplR
+Username: emilys
+Password: emilyspass
 
 
 ---
